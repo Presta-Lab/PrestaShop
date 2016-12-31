@@ -3,6 +3,7 @@
     <a href="{$variant.url}"
        class="{$variant.type}"
        title="{$variant.name}"
+       data-id-product-attribute="{$variant.id_product_attribute}"
        {*
           TODO:
             put color in a data attribute for use with attr() as soon as browsers support it,
